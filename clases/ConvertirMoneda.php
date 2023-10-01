@@ -83,7 +83,7 @@ class DolarEstadounidenseToEuro extends Convertir{
     }
 
     public function calcular(){
-        $resultado = $this->cantidad * 28349.5;
+        $resultado = $this->cantidad * 0.94;
         return $resultado;
     }
 }
@@ -94,7 +94,7 @@ class DolarEstadounidenseToLibraEsterlina extends Convertir{
     }
 
     public function calcular(){
-        $resultado = $this->cantidad * 28.35;
+        $resultado = $this->cantidad * 0.82;
         return $resultado;
     }
 }
@@ -105,7 +105,7 @@ class DolarEstadounidenseToYen extends Convertir{
     }
 
     public function calcular(){
-        $resultado = $this->cantidad * 0.0283495;
+        $resultado = $this->cantidad * 149.38;
         return $resultado;
     }
 }
@@ -116,7 +116,7 @@ class DolarEstadounidenseToDolarCanadiense extends Convertir{
     }
 
     public function calcular(){
-        $resultado = $this->cantidad * 0.0625; 
+        $resultado = $this->cantidad * 1.36; 
         return $resultado;
     }
 }
@@ -129,7 +129,7 @@ class EuroToDolarEstadounidense extends Convertir{
     }
 
     public function calcular(){
-        $resultado = $this->cantidad * 16;
+        $resultado = $this->cantidad * 1.06;
         return $resultado;
     }
 }
@@ -140,7 +140,7 @@ class EuroToLibraEsterlina extends Convertir{
     }
 
     public function calcular(){
-        $resultado = $this->cantidad * 453592.37;
+        $resultado = $this->cantidad * 0.87;
         return $resultado;
     }
 }
@@ -151,7 +151,7 @@ class EuroToYen extends Convertir{
     }
 
     public function calcular(){
-        $resultado = $this->cantidad * 453.59;
+        $resultado = $this->cantidad * 158.15;
         return $resultado;
     }
 }
@@ -162,7 +162,7 @@ class EuroToDolarCanadiense extends Convertir{
     }
 
     public function calcular(){
-        $resultado = $this->cantidad * 0.453592;
+        $resultado = $this->cantidad * 1.44;
         return $resultado;
     }
 }
@@ -175,7 +175,7 @@ class  LibraEsterlinaToDolarEstadounidense extends Convertir{
     }
 
     public function calcular(){
-        $resultado = $this->cantidad * (3.5274 * pow(10, -5));
+        $resultado = $this->cantidad * 1.22;
         return $resultado;
     }
 }
@@ -186,7 +186,7 @@ class LibraEsterlinaToEuro extends Convertir{
     }
 
     public function calcular(){
-        $resultado = $this->cantidad * (2.20462 * pow(10, -6));
+        $resultado = $this->cantidad * 1.15;
         return $resultado;
     }
 }
@@ -197,7 +197,7 @@ class LibraEsterlinaToYen extends Convertir{
     }
 
     public function calcular(){
-        $resultado = $this->cantidad *  0.001;
+        $resultado = $this->cantidad *  182.84;
         return $resultado;
     }
 }
@@ -208,7 +208,7 @@ class LibraEsterlinaToDolarCanadiense extends Convertir{
     }
 
     public function calcular(){
-        $resultado = $this->cantidad *  1.0 * pow(10, -6);
+        $resultado = $this->cantidad *  1.66;
         return $resultado;
     }
 }
@@ -221,7 +221,7 @@ class YenToDolarEstadounidense extends Convertir{
     }
 
     public function calcular(){
-        $resultado = $this->cantidad * 0.035274;
+        $resultado = $this->cantidad * 0.0067;
         return $resultado;
     }
 }
@@ -232,7 +232,7 @@ class YenToEuro extends Convertir{
     }
 
     public function calcular(){
-        $resultado = $this->cantidad * 0.00220462;
+        $resultado = $this->cantidad * 0.0063;
         return $resultado;
     }
 }
@@ -243,7 +243,7 @@ class YenToLibraEsterlina extends Convertir{
     }
 
     public function calcular(){
-        $resultado = $this->cantidad * 1000;
+        $resultado = $this->cantidad * 0.0055;
         return $resultado;
     }
 }
@@ -254,7 +254,7 @@ class YenToDolarCanadiense extends Convertir{
     }
 
     public function calcular(){
-        $resultado = $this->cantidad * 0.001;
+        $resultado = $this->cantidad * 0.0091;
         return $resultado;
     }
 }
@@ -267,7 +267,7 @@ class DolarCanadienseToDolarEstadounidense extends Convertir{
     }
 
     public function calcular(){
-        $resultado = $this->cantidad * 35.27;
+        $resultado = $this->cantidad * 0.74;
         return $resultado;
     }
 }
@@ -278,7 +278,7 @@ class DolarCanadienseToEuro extends Convertir{
     }
 
     public function calcular(){
-        $resultado = $this->cantidad * 2.20462;
+        $resultado = $this->cantidad * 0.70;
         return $resultado;
     }
 }
@@ -289,7 +289,7 @@ class DolarCanadienseToLibraEsterlina extends Convertir{
     }
 
     public function calcular(){
-        $resultado = $this->cantidad * 1000000;
+        $resultado = $this->cantidad * 0.60;
         return $resultado;
     }
 }
@@ -300,7 +300,7 @@ class DolarCanadienseToYen extends Convertir{
     }
     
     public function calcular(){
-        $resultado = $this->cantidad * 1000;
+        $resultado = $this->cantidad * 109.91;
         return $resultado;
     }
 }
