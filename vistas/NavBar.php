@@ -18,13 +18,22 @@
           <a class="nav-link active" aria-current="page" href="../index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="./Longitud.php">Longitud</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="./Datos.php">Datos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          <a class="nav-link " href="./Masa.php">Masa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="./Moneda.php">Moneda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="./Tiempo.php">Tiempo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="./Volumen.php">Volumen</a>
         </li>
       </ul>
     </div>
